@@ -1,0 +1,181 @@
+
+#Container{
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+
+    border: 2px solid black;
+}
+.circle span{
+    align-content: center;
+    color: red;
+    margin-left: 12px;
+    margin-top: 16px;
+    font-family: sans-serif;
+    position: absolute;
+}
+#arrowOne {
+
+    position: absolute;
+    margin-left: -95px;
+    margin-top: 17px;
+
+}
+#arrowTwo{
+
+    position: absolute;
+    margin-left: -95px;
+    margin-top: -32px;
+
+}
+#InputOne{
+
+    position: absolute;
+    margin-left: -150px;
+    margin-top: 17px;
+}
+
+#InputTwo{
+
+    position: absolute;
+    margin-left: -150px;
+    margin-top: -32px;
+
+}
+
+.FirstNeuronOutput{
+
+    position: absolute;
+    margin-left: 60px;
+
+}
+#FirstNeuronOutputArrowOne{
+
+    margin-top: 47px;
+    transform: rotate(20deg);
+}
+
+#FirstNeuronOutputArrowTwo{
+    margin-top: 120px;
+    margin-left: 10px;
+
+    transform: rotate(45deg);
+}
+
+#FirstNeuronOutputArrowThree{
+    margin-top: -25px;
+    transform: rotate(-25deg);
+
+}
+
+.SecondNeuronOutput{
+
+    position: absolute;
+}
+
+#SecondNeuronOutputArrowOne{
+
+    margin-top: -87px;
+    margin-left: 49px;
+    transform: rotate(-24deg);
+}
+
+#SecondNeuronOutputArrowTwo{
+
+    margin-top: -158px;
+    margin-left: -3px;
+
+    transform: rotate(-45deg);
+}
+
+#SecondNeuronOutputArrowThree{
+
+    margin-top: 1px;
+    margin-left: 55px;
+    transform: rotate(18deg);
+}
+
+#ThirdNeuron{
+    position: absolute;
+    margin-left: 200px;
+    margin-top: -300px;
+}
+
+#FourthNeuron{
+
+    position: absolute;
+    margin-left: 200px;
+    margin-top: -150px;
+}
+
+#FifthNeuron{
+
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 10px;
+}
+
+#SixthNeuron{
+
+    position: absolute;
+    margin-left: 400px;
+    margin-top: -155px;
+
+
+}
+
+
+#ThirdNeuronOutputArrow{
+    position: absolute;
+    margin-left: 243px;
+    margin-top: -216px;
+    transform: rotate(37deg);
+}
+
+#FourthNeuronOutputArrow{
+
+    position: absolute;
+    margin-left: 260px;
+    margin-top: -130px;
+    
+
+}
+#FifthNeuronOutputArrow{
+    
+    position: absolute;
+    margin-left: 243px;
+    margin-top: -50px;
+    transform: rotate(-37deg);
+    
+}
+
+#SixthNeuronOutputArrow{
+
+    position: absolute;
+    margin-left: 460px;
+    margin-top: -130px;
+}
+.Weight{
+    
+    position: absolute;
+    color: red;
+    font-family: sans-serif;
+    font-size: large;
+    margin-top: -10px;
+    margin-left: 4px;
+}
+
+#button{
+    position: absolute;
+  
+    
+}
